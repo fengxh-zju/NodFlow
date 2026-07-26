@@ -1,0 +1,6 @@
+numpy>=1.23
+PyYAML>=6.0
+scipy>=1.10
+nibabel>=5.0
+torch>=2.0
+pydicom>=2.4

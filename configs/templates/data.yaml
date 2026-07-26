@@ -1,0 +1,20 @@
+# Copy this file outside the repository and replace each environment variable.
+dataset: ${DATASET_NAME}
+root: ${PROCESSED_DATA_ROOT}
+output_root: ${EXPERIMENT_OUTPUT_ROOT}
+target_library: ${TARGET_LIBRARY_ROOT}
+splits: ${SPLITS_ROOT}
+manifests: ${MANIFESTS_ROOT}
+generation_split: ${GENERATION_SPLIT}
+
+preprocess:
+  orientation: ${CT_ORIENTATION}
+  spacing: ${CT_SPACING}
+  hu_clip: ${CT_HU_CLIP}
+  roi_size: ${CT_ROI_SIZE}
+
+histogram:
+  hu_range: ${HISTOGRAM_HU_RANGE}
+  bins: ${HISTOGRAM_BINS}
+  normalize: ${HISTOGRAM_NORMALIZE}
+  smoothing_eps: ${HISTOGRAM_SMOOTHING_EPS}

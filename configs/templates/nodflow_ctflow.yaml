@@ -1,0 +1,6 @@
+method_id: nodflow_ctflow
+implementation: training_free_lesion_constrained_flow_matching
+hyperparameters_file: ${NODFLOW_HPARAMS}
+prior: ctflow
+ctflow_code_root: ${CTFLOW_CODE_ROOT}
+ctflow_weight_root: ${CTFLOW_WEIGHT_ROOT}

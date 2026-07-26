@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data, models, and experiment artifacts
+/data/
+/raw/
+/processed/
+/outputs/
+/checkpoints/
+/weights/
+/models/
+/runs/
+/logs/
+/wandb/
+/tensorboard/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.nii
+*.nii.gz
+*.mhd
+*.raw
+*.dcm
+
+# User-owned runtime configuration
+configs/private/
+configs/local/
+*.local.yaml
+*.private.yaml
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

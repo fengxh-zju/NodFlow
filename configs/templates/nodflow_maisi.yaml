@@ -1,0 +1,6 @@
+method_id: nodflow_maisi
+implementation: training_free_lesion_constrained_flow_matching
+hyperparameters_file: ${NODFLOW_HPARAMS}
+prior: maisi_rflow
+maisi_bundle: ${MAISI_BUNDLE_ROOT}
+maisi_weight_root: ${MAISI_WEIGHT_ROOT}

@@ -1,0 +1,2 @@
+# Add the flat method-specific keys consumed by the selected implementation,
+# then pass this file through the method descriptor's hyperparameters_file field.
